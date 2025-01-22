@@ -1,66 +1,29 @@
-/* РћР±С‰РёРµ СЃС‚РёР»Рё */
+/* Общие стили */
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.6;
   margin: 0;
   padding: 0;
+  text-align: center;
+  height: 100vh;
+  transition: background-color 3s ease-in-out; /* Плавный переход фона */
 }
 
 header {
   background: #333;
-  color: #fff;
+  color: white;
   padding: 20px;
-  text-align: center;
 }
 
-header nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-header nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-header nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-h1 {
-  margin: 0;
+main {
+  padding: 50px 20px;
 }
 
 footer {
   background: #333;
-  color: #fff;
+  color: white;
   padding: 10px;
-  text-align: center;
 }
 
-/* РћСЃРЅРѕРІРЅРѕР№ РєРѕРЅС‚РµРЅС‚ */
-main {
-  padding: 20px;
-}
-
-h2 {
-  font-size: 24px;
-}
-
-ul {
-  padding: 0;
-}
-
-ul li {
-  margin: 10px 0;
-}
-
-ul li a {
-  color: #333;
-  text-decoration: none;
-}
-
-ul li a:hover {
-  color: #007BFF;
+h1, h2 {
+  margin: 0;
 }
