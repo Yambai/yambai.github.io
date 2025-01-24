@@ -3,23 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>��� ����</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>KUPIKOD</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
-    <h1>��� ����</h1>
+  <!-- Шапка -->
+  <header class="header">
+    <div class="logo">KUPIKOD</div>
+    <nav class="menu">
+      <a href="#">Пополнить Steam</a>
+      <a href="#">Пополнить сервисы</a>
+      <a href="#">Игровая валюта</a>
+      <a href="#">Покупай гифты</a>
+      <a href="#">Покупай ключи</a>
+    </nav>
+    <div class="auth">
+      <button class="login">Войти</button>
+      <div class="social-icons">
+        <img src="vk-icon.png" alt="VK">
+        <img src="telegram-icon.png" alt="Telegram">
+      </div>
+    </div>
   </header>
 
-  <main>
-    <h2>����� ���������� �� ��� ����!</h2>
-    <p>��� ����� ���������� ������ � �������.</p>
+  <!-- Главный блок -->
+  <main class="main">
+    <h1>Экосистема для <span class="highlight">геймеров</span>, созданная <span class="highlight">геймерами</span></h1>
+    <p>Пополняй кошелёк Steam, покупай игры, игровую валюту и не только!</p>
+    <div class="stats">
+      <p>1,8 млн+ активных пользователей</p>
+      <div class="avatars">
+        <img src="avatar1.png" alt="User 1">
+        <img src="avatar2.png" alt="User 2">
+        <img src="avatar3.png" alt="User 3">
+        <span>69 тыс.+ отзывов</span>
+      </div>
+    </div>
   </main>
 
-  <footer>
-    <p>&copy; 2025 ��� ����</p>
-  </footer>
-
-  <script src="js/animation.js"></script>
+  <!-- Раздел карточек -->
+  <section class="products">
+    <h2>Пополнение баланса Steam</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="steam-login.png" alt="По логину">
+        <h3>По логину</h3>
+        <p>Моментально и безопасно</p>
+      </div>
+      <div class="card">
+        <img src="skins.png" alt="Скины">
+        <h3>Скинами</h3>
+        <p>Комиссия 0%</p>
+      </div>
+      <div class="card">
+        <img src="gift-cards.png" alt="Подарочные карты">
+        <h3>Подарочные карты</h3>
+        <p>Для регионов: Турция, Казахстан и другие</p>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
