@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     screamerModal.classList.add('screamer-modal');
     screamerModal.innerHTML = `
       <div class="screamer-content">
-        <img src="screamer-face.png" alt="Скример" />
+        <img src="screamer-face.webp" alt="Скример" />
         <audio autoplay>
           <source src="screamer-sound.mp3" type="audio/mpeg">
         </audio>
